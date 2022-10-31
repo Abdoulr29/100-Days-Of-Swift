@@ -11,3 +11,5 @@ over multiple \
 lines
 """
 
+var pi = 3.14
+var truthness = true
