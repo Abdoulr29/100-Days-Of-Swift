@@ -20,3 +20,5 @@ var str = "your total points are \(points) %"
 
 let constantName = "Swift"
 
+let name:String = "jinx"
+
