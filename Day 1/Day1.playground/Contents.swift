@@ -17,3 +17,6 @@ var truthness = true
 
 var points = 90.0
 var str = "your total points are \(points) %"
+
+let constantName = "Swift"
+
