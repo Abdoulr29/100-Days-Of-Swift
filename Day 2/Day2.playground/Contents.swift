@@ -12,3 +12,6 @@ print(colors)
 
 var tuples = (origin: "Kigali",destination:"Bujumbura")
 print(tuples.origin)
+
+var map = ["1":"Test 1","2":"Test 2"]
+map.keys
