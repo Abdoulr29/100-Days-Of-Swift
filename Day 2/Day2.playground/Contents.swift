@@ -15,3 +15,11 @@ print(tuples.origin)
 
 var map = ["1":"Test 1","2":"Test 2"]
 map.keys
+
+enum Result{
+    case success(code:Int)
+    case failure(code:Int)
+}
+
+let statusCode = Result.success(code: 200)
+print(statusCode)
