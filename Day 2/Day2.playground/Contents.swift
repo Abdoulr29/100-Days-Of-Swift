@@ -10,3 +10,5 @@ colors.insert("red")
 print(colors)
 
 
+var tuples = (origin: "Kigali",destination:"Bujumbura")
+print(tuples.origin)
