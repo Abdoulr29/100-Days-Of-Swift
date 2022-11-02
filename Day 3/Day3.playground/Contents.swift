@@ -27,3 +27,8 @@ let age2 = 21
 if age1 > 18 && age2 > 18 {
     print("Both are over 18")
 }
+
+
+let firstCard = 11
+let secondCard = 10
+print(firstCard == secondCard ? "Cards are the same" : "Cards are different")
