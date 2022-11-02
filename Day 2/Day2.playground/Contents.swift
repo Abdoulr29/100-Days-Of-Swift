@@ -23,3 +23,11 @@ enum Result{
 
 let statusCode = Result.success(code: 200)
 print(statusCode)
+
+enum Test:Int{
+    case one
+    case two
+    case three
+    case four
+}
+
