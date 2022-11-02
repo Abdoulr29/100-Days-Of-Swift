@@ -11,3 +11,6 @@ a%b
 var arr1=["one","two"]
 var arr2=["three"]
 var result = arr1+arr2
+
+var sum = 10
+sum+=60
