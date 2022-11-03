@@ -9,3 +9,11 @@ var countries = ["Rwanda","Kenya","Uganda"]
 for country in countries{
     print(country)
 }
+
+ var index = 0;
+
+while(index <= 20){
+    print("Test ",index)
+    index+=1
+}
+
