@@ -45,3 +45,17 @@ func square(numbers: Int...) {
 
 square(numbers: 1, 2, 3, 4, 5, 6, 7, 8)
 
+
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassword(_ password: String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+
+    return true
+}
+
+try checkPassword("password")
