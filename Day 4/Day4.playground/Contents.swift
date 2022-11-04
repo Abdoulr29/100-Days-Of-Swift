@@ -19,12 +19,10 @@ while(index <= 20){
 
 var x = 0
 repeat {
-    print("\(x)")
     x+=1
     if x == 5{
-        break
+        continue
     }
+    print("\(x)")
 
 } while x<10
-
-var countDown = 10
