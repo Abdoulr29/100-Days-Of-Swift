@@ -18,3 +18,9 @@ func sayHello(abcde name: String) {
 }
 
 sayHello(abcde: "Jack")
+
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+
+greet("Adam")
