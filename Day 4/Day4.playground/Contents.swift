@@ -21,5 +21,10 @@ var x = 0
 repeat {
     print("\(x)")
     x+=1
+    if x == 5{
+        break
+    }
 
 } while x<10
+
+var countDown = 10
