@@ -11,3 +11,10 @@ func printSquare(number:Int) -> Int{
 }
 
 print(printSquare(number: 9))
+
+
+func sayHello(abcde name: String) {
+    print("Hello, \(name)!")
+}
+
+sayHello(abcde: "Jack")
