@@ -6,8 +6,8 @@ func printMessage(){
 
 printMessage()
 
-func printSquare(number:Int){
-    print(number * number)
+func printSquare(number:Int) -> Int{
+    return number * number
 }
 
-printSquare(number: 12)
+print(printSquare(number: 9))
