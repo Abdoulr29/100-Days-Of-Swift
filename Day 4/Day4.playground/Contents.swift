@@ -39,3 +39,13 @@ outerLoop: for i in 1...10 {
         }
     }
 }
+
+var counter = 0
+
+while true {
+    print("\(counter)")
+    counter += 1
+    if counter == 500 {
+        break
+    }
+}
