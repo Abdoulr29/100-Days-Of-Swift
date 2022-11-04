@@ -35,3 +35,13 @@ func greet(_ person: String, nicely: Bool = true) {
 
 greet("Taylor")
 greet("Taylor", nicely: false)
+
+
+func square(numbers: Int...) {
+    for number in numbers {
+        print("\(number) squared is \(number * number)")
+    }
+}
+
+square(numbers: 1, 2, 3, 4, 5, 6, 7, 8)
+
