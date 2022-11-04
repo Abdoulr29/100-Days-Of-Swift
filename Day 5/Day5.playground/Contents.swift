@@ -64,3 +64,12 @@ do {
 } catch {
     print("You can't use that password.")
 }
+
+
+func doubleInPlace(number: inout Int) {
+    print(number *= 2)
+}
+
+var myNum = 10
+doubleInPlace(number: &myNum)
+myNum
