@@ -5,3 +5,9 @@ func printMessage(){
 }
 
 printMessage()
+
+func printSquare(number:Int){
+    print(number * number)
+}
+
+printSquare(number: 12)
