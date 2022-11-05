@@ -2,11 +2,9 @@ import UIKit
 
 
 
-let driving = { (place: String) in
-    print("I'm going to \(place) in my car")
+let driving = {
+    print("I'm driving in my car")
 }
-
-driving("kigali")
 
 let drivingWithReturn = { (place: String) -> String in
     return "I'm going to \(place) in my car"
@@ -14,4 +12,13 @@ let drivingWithReturn = { (place: String) -> String in
 
 let message = drivingWithReturn("Nairobi")
 print(message)
+
+func travel(action: () -> Void) {
+    print("I'm getting ready to go.")
+    action()
+    print("I arrived!")
+}
+
+travel(action: driving)
+
 
