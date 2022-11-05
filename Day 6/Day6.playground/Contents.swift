@@ -1,8 +1,10 @@
 import UIKit
 
-let driving = {
-    print("I'm driving in my car")
+
+
+let driving = { (place: String) in
+    print("I'm going to \(place) in my car")
 }
 
-driving()
+driving("kigali")
 
