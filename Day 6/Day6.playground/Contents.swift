@@ -19,6 +19,7 @@ func travel(action: () -> Void) {
     print("I arrived!")
 }
 
-travel(action: driving)
-
+travel() {
+    print("I'm driving in my car")
+}
 
