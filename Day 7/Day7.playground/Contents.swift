@@ -9,5 +9,4 @@ func travel() -> (String) -> Void {
 let result = travel()
 result("London")
 
-let result2 = travel()("London")
 
