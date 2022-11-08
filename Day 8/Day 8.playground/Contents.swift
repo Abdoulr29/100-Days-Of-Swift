@@ -39,14 +39,3 @@ struct City {
 let london = City(population: 9_000_000)
 london.collectTaxes()
 
-struct Person {
-    var name: String
-
-    mutating func makeAnonymous() {
-        name = "Anonymous"
-        print("#### ", name)
-    }
-}
-
-var person = Person(name: "Ed")
-person.makeAnonymous()
