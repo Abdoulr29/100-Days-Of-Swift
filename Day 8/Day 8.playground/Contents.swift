@@ -84,6 +84,25 @@ struct Persons {
     }
 }
 
+struct FamilyTree {
+    init() {
+        print("Creating family tree!")
+    }
+}
+
+struct Person1 {
+    var name: String
+    lazy var familyTree = FamilyTree()
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+var ed = Person1(name: "Ed")
+ed.familyTree
+
+
 
 
 
