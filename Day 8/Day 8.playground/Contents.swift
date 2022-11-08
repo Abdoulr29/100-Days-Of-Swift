@@ -76,6 +76,16 @@ struct User {
 var user = User()
 user.username = "twostraws"
 
+struct Persons {
+    var name: String
+    init(name: String) {
+        print("\(name) was born!")
+        self.name = name
+    }
+}
+
+
+
 
 
 
