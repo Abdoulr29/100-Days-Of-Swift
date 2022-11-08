@@ -64,6 +64,18 @@ print(toys.sorted())
 toys.remove(at: 0)
 
 
+struct User {
+    var username: String
+
+    init() {
+        username = "Anonymous"
+        print("Creating a new user!")
+    }
+}
+
+var user = User()
+user.username = "twostraws"
+
 
 
 
