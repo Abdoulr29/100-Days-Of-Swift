@@ -35,3 +35,17 @@ let taylor = Student(name: "Taylor")
 print(Student.classSize)
 
 
+struct Person2 {
+    private var id: String
+
+    init(id: String) {
+        self.id = id
+    }
+
+    func identify() -> String {
+        return "My social security number is \(id)"
+    }
+}
+
+let myId = Person2(id: "12377882")
+print(myId.identify())
