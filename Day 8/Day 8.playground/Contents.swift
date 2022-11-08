@@ -3,7 +3,6 @@ import UIKit
 struct Sport {
     var name: String
     var isOlympicSport: Bool
-
     var olympicStatus: String {
         if isOlympicSport {
             return "\(name) is an Olympic sport"
@@ -15,7 +14,6 @@ struct Sport {
 
 let chessBoxing = Sport(name: "Chessboxing", isOlympicSport: false)
 print(chessBoxing.olympicStatus)
-
 
 struct Progress {
     var task: String
@@ -30,3 +28,25 @@ var progress = Progress(task: "Loading data", amount: 0)
 progress.amount = 30
 progress.amount = 80
 progress.amount = 100
+
+struct City {
+    var population: Int
+    func collectTaxes() -> Int {
+        return population * 1000
+    }
+}
+
+let london = City(population: 9_000_000)
+london.collectTaxes()
+
+struct Person {
+    var name: String
+
+    mutating func makeAnonymous() {
+        name = "Anonymous"
+        print("#### ", name)
+    }
+}
+
+var person = Person(name: "Ed")
+person.makeAnonymous()
