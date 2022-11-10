@@ -8,6 +8,10 @@ class Dog {
         self.name = name
         self.breed = breed
     }
+    
+    func makeNoise(){
+        print("Woof woof")
+    }
 }
 
 
@@ -15,8 +19,11 @@ class Poodle: Dog {
     init(name: String) {
         super.init(name: name, breed: "Poodle")
     }
+    
+    override func makeNoise() {
+        print("Wooooooooooofffffff")
+    }
 }
 
 let poppy = Poodle(name: "Poppy")
-poppy.name
-poppy.breed
+poppy.makeNoise()
