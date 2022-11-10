@@ -49,3 +49,15 @@ for _ in 1...5 {
 }
 
 
+class Singers {
+    var name = "Taylor Swift"
+}
+
+let taylor = Singers()
+taylor.name = "Ed Sheeran"
+print(taylor.name)
+
+class Singer2 {
+    let name = "Taylor Swift"
+}
+
