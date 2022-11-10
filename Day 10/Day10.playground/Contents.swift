@@ -1,6 +1,6 @@
 import UIKit
 
-class Dog {
+final class Dog {
     var name: String
     var breed: String
 
@@ -14,16 +14,3 @@ class Dog {
     }
 }
 
-
-class Poodle: Dog {
-    init(name: String) {
-        super.init(name: name, breed: "Poodle")
-    }
-    
-    override func makeNoise() {
-        print("Wooooooooooofffffff")
-    }
-}
-
-let poppy = Poodle(name: "Poppy")
-poppy.makeNoise()
