@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 final class Dog {
     var name: String
@@ -61,3 +62,18 @@ class Singer2 {
     let name = "Taylor Swift"
 }
 
+//ios AAAAUXrfYE9ESU5fMTU5X0Rldl9uYWNmb3B4Z2ly
+//android AAAA7VarI09ESU5fMTU5X0Rldl90bWRsY213dGVr
+
+var encoded = "AAAAUXrfYE9ESU5fMTU5X0Rldl9uYWNmb3B4Z2ly"
+let decodePayload: String = Data(encoded).base64EncodedString()
+let decodePayloadArray: [String] = decodePayload.components(separatedBy: "_")
+let length: Int = decodePayloadArray.count;
+
+//let encodedData = String(payloadData.data.base64EncodedString())
+
+//let testIfNull: String? = ("A" + String(encoded.dropFirst(9)).trimmed).base64Decoded
+//var actualShortName: String = "A" + String(encoded.dropFirst(9)).trimmed
+
+
+//UKjtYk9ESU5fMTU5X0Rldl90bWRsY213dGVr android
