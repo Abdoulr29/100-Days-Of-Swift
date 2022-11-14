@@ -26,4 +26,13 @@ protocol HasVacation {
 
 protocol Employee: Payable, NeedsTraining, HasVacation { }
 
+extension Int {
+    func squared() -> Int {
+        return self * self
+    }
+}
+
+let number = 11
+number.squared()
+print(number.squared())
 
