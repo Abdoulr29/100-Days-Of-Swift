@@ -23,5 +23,5 @@ func greet(_ name: String?) {
 let str = "5"
 let num = Int(str)
 
-let num = Int(str)!
+let age: Int! = nil
 
