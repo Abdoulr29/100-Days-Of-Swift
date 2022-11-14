@@ -57,3 +57,16 @@ extension Collection {
 
 pythons.summarize()
 beatles.summarize()
+
+extension Identifiable {
+    func identify() {
+        print("My ID is \(id).")
+    }
+}
+
+struct Student: Identifiable {
+    var id: String
+}
+
+let twostraws = Student(id: "twostraws")
+twostraws.identify()
