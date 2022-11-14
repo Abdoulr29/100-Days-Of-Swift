@@ -23,5 +23,16 @@ func greet(_ name: String?) {
 let str = "5"
 let num = Int(str)
 
-let age: Int! = nil
+//let age: Int! = nil
+
+func username(for id: Int) -> String? {
+    if id == 1 {
+        return "Taylor Swift"
+    } else {
+        return nil
+    }
+}
+
+let user = username(for: 23) ?? "Anonymous"
+
 
