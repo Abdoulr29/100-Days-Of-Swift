@@ -67,3 +67,15 @@ if let result = try? checkPassword("password") {
 try! checkPassword("sekrit")
 print("OK!")
 
+
+struct Person {
+    var id: String
+
+    init?(id: String) {
+        if id.count == 9 {
+            self.id = id
+        } else {
+            return nil
+        }
+    }
+}
