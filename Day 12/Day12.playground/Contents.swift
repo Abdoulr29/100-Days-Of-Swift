@@ -19,3 +19,9 @@ func greet(_ name: String?) {
 
     print("Hello, \(unwrapped)!")
 }
+
+let str = "5"
+let num = Int(str)
+
+let num = Int(str)!
+
