@@ -56,3 +56,8 @@ userName == "Tim McGraw"
 var stayOutTooLate = true
 stayOutTooLate
 !stayOutTooLate
+
+"Your name is \(userName)"
+
+"Your name is \(name), your age is \(age), and your latitude is \(latitude)"
+
