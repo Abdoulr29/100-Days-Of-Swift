@@ -82,3 +82,14 @@ var person = [
 
 person["middle"]
 person["month"]
+
+var action: String
+var user = "hater"
+
+if user == "hater" {
+    action = "hate"
+} else if user == "player" {
+    action = "play"
+} else {
+    action = "cruise"
+}
