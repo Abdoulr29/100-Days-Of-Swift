@@ -61,3 +61,13 @@ stayOutTooLate
 
 "Your name is \(name), your age is \(age), and your latitude is \(latitude)"
 
+var songs = ["Shake it Off", "You Belong with Me", "Back to December"]
+songs[0]
+songs[1]
+songs[2]
+songs.append("Another song")
+
+//var songs = [String]()
+//var songs:[String] = []
+
+type(of: songs)
