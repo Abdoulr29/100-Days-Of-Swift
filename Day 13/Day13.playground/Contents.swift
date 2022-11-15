@@ -71,3 +71,14 @@ songs.append("Another song")
 //var songs:[String] = []
 
 type(of: songs)
+
+var person = [
+                "first": "Taylor",
+                "middle": "Alison",
+                "last": "Swift",
+                "month": "December",
+                "website": "taylorswift.com"
+            ]
+
+person["middle"]
+person["month"]
