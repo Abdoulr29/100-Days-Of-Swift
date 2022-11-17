@@ -93,3 +93,40 @@ if user == "hater" {
 } else {
     action = "cruise"
 }
+
+
+for i in 1...10 {
+    print("\(i) x 10 is \(i * 10)")
+}
+
+var str = "Fakers gonna"
+for _ in 1...5 {
+    str += " fake"
+}
+print(str)
+
+var songz = ["Shake it Off", "You Belong with Me", "Look What You Made Me Do"]
+
+for song in songz {
+    print("My favorite song is \(song)")
+}
+
+var counter = 0
+
+while true {
+    print("Counter is now \(counter)")
+    counter += 1
+
+    if counter == 556 {
+        break
+    }
+}
+
+
+for song in songz {
+    if song == "You Belong with Me" {
+        continue
+    }
+
+    print("My favorite song is \(song)")
+}
