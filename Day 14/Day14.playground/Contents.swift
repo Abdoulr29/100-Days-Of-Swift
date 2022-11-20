@@ -34,3 +34,14 @@ func albumIsTaylor(name: String) -> Bool {
 func getMeaningOfLife() -> Int {
     return 42
 }
+
+func getHaterStatus(weather: String) -> String? {
+    if weather == "sunny" {
+        return nil
+    } else {
+        return "Hate"
+    }
+}
+
+var status: String
+status = getHaterStatus(weather: "rainy")!
