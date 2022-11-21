@@ -124,6 +124,7 @@ while true {
 
 
 for song in songs {
+for song in songz {
     if song == "You Belong with Me" {
         continue
     }
